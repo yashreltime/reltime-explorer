@@ -11,7 +11,7 @@ if (showAd()) {
   c_display_preferences.height = '90'
   // @ts-ignore
   window.coinzilla_display.push(c_display_preferences)
-  $('.ad-container').show()
+  // $('.ad-container').show()
 } else {
   $('.ad-container').hide()
 }

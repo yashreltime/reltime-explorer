@@ -75,7 +75,7 @@ function fetchTextAdData () {
           $('.ad-name').text(name)
           $('.ad-short-description').text(descriptionShort)
           $('.ad-cta-button').text(ctaButton)
-          $('.ad-url').attr('href', url)
+          $('.ad-url').attr('href', "")
           $('.ad-prefix').text(prefix)
           $('.ad').show()
           const urlObject = new URL(url)
